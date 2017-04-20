@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This is the TITLE of the webpage! -->
+    <title>Pain Killer Dosage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Get the correct paracetamol dosage for my kid.</h1>
+    <div class="container">
+
+        <!-- Dosage form STARTS here! -->
+        <form action="/" method = "post">
+            <!-- Input for FIRST number is here! -->
+            <input type="text" name="number" class="input-box" value="<%= @number %>" autofocus></input>
+            <!-- Selection for months/years is here! -->
+            <select name="age" class="age-box">
+                <option value="months">months</option>
+                <option value="years">years</option>
+            </select>
+            <!-- SUBMIT button is here! -->
+            <input type="submit" class="input-submit"></input>
+        </form>
+        <!-- Dosage form ENDS here! -->
+
+        <input type="text" class="answer-box" placeholder="Answer" value="<%= @result %>"></input>
+    </div>
+</body>
+</html>

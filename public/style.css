@@ -20,8 +20,8 @@ body {
 	border: 1px solid gray;
 }
 
-.operator-box {
-	width: 85px;
+.age-box {
+	width: 200px;
 	height: 75px;
 	background: white;
 	line-height: 75px;
